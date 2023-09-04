@@ -1,0 +1,56 @@
+mysql> desc category;
++---------------+--------------+------+-----+---------+----------------+
+| Field         | Type         | Null | Key | Default | Extra          |
++---------------+--------------+------+-----+---------+----------------+
+| category_id   | int          | NO   | PRI | NULL    | auto_increment |
+| category_name | varchar(255) | NO   |     | NULL    |                |
++---------------+--------------+------+-----+---------+----------------+
+2 rows in set (0.01 sec)
+
+
+
+
++-------------------+--------------+------+-----+---------+----------------+
+| Field             | Type         | Null | Key | Default | Extra          |
++-------------------+--------------+------+-----+---------+----------------+
+| customer_id       | int          | NO   | PRI | NULL    | auto_increment |
+| customer_name     | varchar(255) | NO   |     | NULL    |                |
+| customer_password | varchar(255) | NO   |     | NULL    |                |
++-------------------+--------------+------+-----+---------+----------------+
+3 rows in set (0.00 sec)
+
+
+
++----------------------+-------+------+-----+---------+----------------+
+| Field                | Type  | Null | Key | Default | Extra          |
++----------------------+-------+------+-----+---------+----------------+
+| order_id             | int   | NO   | PRI | NULL    | auto_increment |
+| dispatch_date        | date  | NO   |     | NULL    |                |
+| order_date           | date  | NO   |     | NULL    |                |
+| total_cost           | float | NO   |     | NULL    |                |
+| customer_customer_id | int   | YES  | MUL | NULL    |                |
+| products_product_id  | int   | YES  | MUL | NULL    |                |
++----------------------+-------+------+-----+---------+----------------+
+6 rows in set (0.00 sec)
+
++---------------+--------------+------+-----+---------+----------------+
+| Field         | Type         | Null | Key | Default | Extra          |
++---------------+--------------+------+-----+---------+----------------+
+| product_id    | int          | NO   | PRI | NULL    | auto_increment |
+| product_breed | varchar(255) | YES  |     | NULL    |                |
+| category      | varchar(255) | NO   |     | NULL    |                |
+| product_cost  | float        | NO   |     | NULL    |                |
+| description   | varchar(255) | YES  |     | NULL    |                |
+| product_name  | varchar(255) | NO   |     | NULL    |                |
++---------------+--------------+------+-----+---------+----------------+
+6 rows in set (0.00 sec)
+
++----------------------+--------------+------+-----+---------+----------------+
+| Field                | Type         | Null | Key | Default | Extra          |
++----------------------+--------------+------+-----+---------+----------------+
+| user_id              | int          | NO   | PRI | NULL    | auto_increment |
+| user_name            | varchar(255) | NO   |     | NULL    |                |
+| user_type            | varchar(255) | NO   |     | NULL    |                |
+| customer_customer_id | int          | YES  | MUL | NULL    |                |
++----------------------+--------------+------+-----+---------+----------------+
+4 rows in set (0.00 sec)

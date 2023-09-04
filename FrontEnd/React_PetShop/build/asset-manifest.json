@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1c3abb51.css",
+    "main.js": "/static/js/main.db641825.js",
+    "static/media/slider-3.png": "/static/media/slider-3.eed620da1697420157d9.png",
+    "static/media/slider-1.jpg": "/static/media/slider-1.405375129ec9e50f90f7.jpg",
+    "static/media/slider-2.jpg": "/static/media/slider-2.ff152372195bf15708b4.jpg",
+    "static/media/petlogo4.png": "/static/media/petlogo4.ade909a176c5378bc62d.png",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/petlogo3.png": "/static/media/petlogo3.336e40ac2e36c56c0c2d.png",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/placed.png": "/static/media/placed.53e1c51ab611c1ca745d.png",
+    "static/media/customer.png": "/static/media/customer.94bee12dac6e43b6d843.png",
+    "static/media/404-error.png": "/static/media/404-error.4f79acbaddd21ab3d2fc.png",
+    "static/media/order.png": "/static/media/order.68e5a069885b6667920a.png",
+    "static/media/box.png": "/static/media/box.892bd5952464ffc9399f.png",
+    "static/media/no-entry.png": "/static/media/no-entry.04a8723aad81c30851b8.png",
+    "static/media/tracking.png": "/static/media/tracking.9e43aa520afd2bb32995.png",
+    "static/media/user.png": "/static/media/user.724b79cd582c0a0944ee.png",
+    "static/media/petlogo6.png": "/static/media/petlogo6.daab4185f5433aa3055c.png",
+    "static/media/bye.png": "/static/media/bye.a78baedd6fc26d3affb0.png",
+    "index.html": "/index.html",
+    "main.1c3abb51.css.map": "/static/css/main.1c3abb51.css.map",
+    "main.db641825.js.map": "/static/js/main.db641825.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c3abb51.css",
+    "static/js/main.db641825.js"
+  ]
+}
